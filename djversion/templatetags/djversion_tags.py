@@ -18,7 +18,7 @@ __all__ = [
 register = template.Library()
 
 
-@register.assignment_tag()
+@register.simple_tag()
 def project_version():
     """
     Formatted version string templatetag.

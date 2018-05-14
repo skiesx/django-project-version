@@ -11,7 +11,7 @@ from setuptools import (
 
 
 # metadata
-VERSION = (0, 2, 3)
+VERSION = (0, 2, 4)
 __version__ = ".".join(map(str, VERSION))
 setup(
     name="django-project-version",
@@ -20,12 +20,12 @@ setup(
     install_requires=[
         "Django",
     ],
-    author="Alexei Andrushievich",
-    author_email="vint21h@vint21h.pp.ua",
+    author="SkiesX",
+    author_email="SkiesX@ex.ua",
     description="Django reusable app to show your project version",
     license="MIT",
-    url="https://github.com/DCOD-OpenSource/django-project-version/",
-    download_url="https://github.com/DCOD-OpenSource/django-project-version/archive/{version}.tar.gz".format(**{"version": __version__, }),
+    url="https://github.com/skiesx/django-project-version/",
+    download_url="https://github.com/skiesx/django-project-version/archive/{version}.tar.gz".format(**{"version": __version__, }),
     zip_safe=False,
     include_package_data=True,
     classifiers=[
@@ -43,5 +43,6 @@ setup(
         "Framework :: Django :: 1.9",
         "Framework :: Django :: 1.10",
         "Framework :: Django :: 1.11",
+        "Framework :: Django :: 2.0",
     ]
 )

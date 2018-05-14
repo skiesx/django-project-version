@@ -64,8 +64,8 @@ django-project-version uses the MIT license. Please check the MIT-LICENSE file f
 
 Contacts
 --------
-**Project Website**: https://github.com/DCOD-OpenSource/django-project-version/
+**Project Website**: https://github.com/skiesx/django-project-version
 
 **Author**: Alexei Andrushievich <vint21h@vint21h.pp.ua>
-
+**Author**: SkiesX
 For other authors list see AUTHORS file.
